@@ -1,0 +1,239 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    background:linear-gradient(to bottom, #1a159c, #251691, #2a1489, #2d1181, #2f0f79, #3d137a, #49197c, #541e7d, #6c2c87, #833a91, #994a9c, #ae5aa6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ESTILO COMÚN*/
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 100;
+}
+
+.navigationBox{
+    display: flex;
+}
+
+nav{
+    background-color: transparent;
+    width: auto;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -70px;
+    width: auto;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #11111172;
+}
+
+nav ul li a{
+    background-color: transparent;
+    font-size:20px;
+    color:white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url("../IMAGENES/images_p1_tablas/banner.jfif");
+    width: auto;
+    height: 200px;
+    margin-top: 70px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+h1{
+    color:white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.tabla{
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+}
+
+th{
+    color: white;
+    background-color: #523c8592;
+    font:bold;
+    width: 250px;
+    align-self: center;
+    font-size: 20px;
+    column-gap: none;
+    padding: 7px;
+}
+
+.tabla .entradas tr:hover{
+    color:rgb(236, 142, 65);
+    transform: scale(1,1);
+    font-weight: bold;
+    background-color: #76248242;
+}
+.tabla .entradas tr{
+    color:white;
+    font: bold;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+}
+td{
+    padding: 8px;
+    font-size: 18px;
+}
+
+
+.contenidos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.contenidos ul{
+    list-style: none;
+    padding: 0px;
+    margin-left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contenidos ul img{
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.contenidos ul li::before{
+    content: "\2022";
+    color: white;
+    display: inline-block;
+    padding-right: 2px;
+    font-size: 25px;
+    vertical-align: -4px;
+    width: 15px;
+}
+.contenidos ul li{
+    font-size: 15px;
+}
+
+
+.contenidos2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.contenidos2 ol{
+    padding: 0px;
+    margin-left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contenidos2 ol img{
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.contenidos2 ol li{
+    margin-left: 18px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+/* .contenidos2 ol li::before{
+    content: "\2022";
+    color: white;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 25px;
+    line-height: 25px;
+    vertical-align: -2px;
+    width: 15px;
+} */
+
+
+
+.schedule dl{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify center;
+}
+
+.schedule dl dt{
+    color:salmon;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 30px;
+
+}
+
+.schedule dl dd{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: justify center;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----PIE PAGINA---------------*/
+
+footer p{
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #1c0e29 ,#dda04f, #ffffff);
+    background: -o-linear-gradient(right,  #1c0e29 ,#dda04f, #ffffff);
+    background: -moz-linear-gradient(right,  #1c0e29 ,#dda04f, #ffffff);
+    background: linear-gradient(to right,  #1c0e29 ,#dda04f, #ffffff); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+
+
