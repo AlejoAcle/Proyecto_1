@@ -1,0 +1,176 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.backgroundColor{
+    background-image: linear-gradient(to bottom, #1a159c, #251691, #2a1489, #2d1181, #2f0f79, #3d137a, #49197c, #541e7d, #6c2c87, #833a91, #994a9c, #ae5aa6);
+    background-repeat: no-repeat;
+}
+
+/* ESTILO COMÚN*/
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.navigationBox{
+    display: flex;
+}
+nav{
+    background-color: transparent;
+    width: auto;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -70px;
+    width: auto;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: #11111172;
+}
+nav ul li a{
+    background-color: transparent;
+    font-size:20px;
+    color:white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*INDEX-HOME*/
+
+.banner{
+    background-image: url("../IMAGENES/imagenes_p1_diseño/banner.jfif");
+    width: 1480px;
+    height: 200px;
+    margin-top: 70px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*-----FORMULARIO---------------*/
+
+.formulario{
+    margin-left: 500px;
+    margin-top: 70px;
+    display: inline-table;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #ffffff12;
+    flex-wrap: wrap;
+    width: 460px;
+    height: 700px;
+    border-bottom:#3d137a solid 2px;
+    border-right: #3d137a solid 1px;
+    border-radius: 2%;
+}
+
+.formulario form{
+    color:white;
+    font-size: 15px;
+    text-align: justify;
+    padding: 40px;
+}
+
+.formulario form .personales{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.formulario form .sexo,
+.formulario form .residencia,
+.formulario form .contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* .formulario form .conocimientos{
+    text-align: justify;
+    justify-content: space-around;
+} */
+
+.formulario form .conocimientos .pregunta{
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.formulario form .conocimientos .html,
+.formulario form .conocimientos .c{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.formulario form .presentate{
+        display: flex;
+        flex-direction:column;
+        padding: 10px;
+        text-align: justify;
+        width: 400px;
+        height: 200px;       
+}
+
+.formulario .enviar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario .enviar input{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3d137a;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 8%;
+}
+
+.formulario .enviar input:hover{
+    transform: scale(1,1);
+    border: rgb(249, 131, 6) solid 2px;
+}
+    
+
+
+
+
+
+
+
+/*-----PIE PAGINA---------------*/
+
+footer p{
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #1c0e29 ,#dda04f, #ffffff);
+    background: -o-linear-gradient(right,  #1c0e29 ,#dda04f, #ffffff);
+    background: -moz-linear-gradient(right,  #1c0e29 ,#dda04f, #ffffff);
+    background: linear-gradient(to right,  #1c0e29 ,#dda04f, #ffffff); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}

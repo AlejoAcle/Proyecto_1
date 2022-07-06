@@ -146,6 +146,13 @@ nav ul li a{
     transform: rotate(0.5turn);
 }
 
+.fechas .fecha1 button a,
+.fechas .fecha2 button a,
+.fechas .fecha3 button a{
+  text-decoration: none;
+  color: white;
+}
+
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -183,7 +190,6 @@ nav ul li a{
   color: white;
 }
 .botón button{
-  
   align-content: center;
   width: 100px;
   height: 100px;
@@ -193,6 +199,10 @@ nav ul li a{
   color: #ffffff;
   border-radius: 50%;
   border-top: #1c0e29;
+}
+
+.botón button:hover{
+  border:#FF874C solid 2px;
 }
 
 

@@ -1,0 +1,67 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.backgroundColor{
+    background-image: linear-gradient(to bottom, #1a159c, #251691, #2a1489, #2d1181, #2f0f79, #3d137a, #49197c, #541e7d, #6c2c87, #833a91, #994a9c, #ae5aa6);
+    background-repeat: no-repeat;
+    height:655px;
+}
+
+
+.banner{
+    background-image: url("../IMAGENES/imagenes_p1_diseño/banner.jfif");
+    width: 1480px;
+    height: 200px;
+    margin-top: 70px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.gracias{
+    
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+.volver button{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    background-color: #e0dbe9;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 8%;
+    text-decoration: none;
+    margin-left: 700px;
+}
+
+
+
+
+
+
+/*-----PIE PAGINA---------------*/
+
+footer p{
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #1c0e29 ,#dda04f, #ffffff);
+    background: -o-linear-gradient(right,  #1c0e29 ,#dda04f, #ffffff);
+    background: -moz-linear-gradient(right,  #1c0e29 ,#dda04f, #ffffff);
+    background: linear-gradient(to right,  #1c0e29 ,#dda04f, #ffffff); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
