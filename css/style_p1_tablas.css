@@ -31,26 +31,34 @@ nav{
     padding: 20px;
 }
 
-nav ul{
+nav ul {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-content: center;
     margin-top: -70px;
-    width: auto;
-}
-
-nav ul li{
+    z-index: 2;
+    /* margin-left: 500px; */
+    /* width: max-content; */
+  }
+  
+  nav ul li {
     list-style-type: none;
-    background-color: #11111172;
-}
-
-nav ul li a{
+    background-color: #0b00a4f4;
+    width: 360px;
+    justify-content: space-around;
+    /* margin-left: 20px; */
+    text-align: center;
+  }
+  
+  nav ul li a {
     background-color: transparent;
-    font-size:20px;
-    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
     padding: 20px;
     text-decoration: none;
-}
+  }
 
 .banner{
     background-image: url("../IMAGENES/images_p1_tablas/banner.jfif");
