@@ -238,7 +238,9 @@ nav ul li a {
   margin-bottom: 30px;
 }
 
-
+.botón2{
+  text-align: center;
+}
 .botón2 button {
   align-content:center;
   width: 50px;
@@ -249,7 +251,7 @@ nav ul li a {
   background-color: #0011ff46;
   color: #ffffff;
   border: solid 1px #1c0e29;
-  margin-left: 720px;
+  /* margin-left: 720px; */
 }
 
 .botón2 button:hover {
