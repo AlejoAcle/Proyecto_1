@@ -21,18 +21,19 @@ header {
   flex-direction: column;
   position: fixed;
   /* z-index: 100; */
+  margin-top: -60px;
 }
 
 .navigationBox {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 nav {
   align-items: center;
   width: auto;
-  /* padding: 20px; */
 }
 
 nav ul {
@@ -40,26 +41,27 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  margin-top: -50px;
+  /* margin-top: -60px; */
   z-index: 2;
-  /* margin-left: 500px; */
-  /* width: max-content; */
 }
 
 nav ul li {
   list-style-type: none;
-  background-color: #0b00a4f4;
+  background-color: #210271f9;
   width: 370px;
+  height: 50px;
+  padding: 12px;
   justify-content: space-around;
   /* margin-left: 20px; */
   text-align: center;
+  align-self: center;
 }
 
 nav ul li a {
   background-color: transparent;
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color:#fbfbfb;
   padding: 20px;
   text-decoration: none;
 }
@@ -71,7 +73,7 @@ nav ul li a {
 
 /*INDEX-HOME*/
 
-.banner {
+.banner{
   background-image: url("../IMAGENES/imagenes_p1_diseño/banner.jfif");
   width: 1480px;
   height: 200px;
