@@ -42,7 +42,7 @@ Descripción de las funcionalidades aplicadas.
 
 * Visual Studio Code (VSC)
 * Google Chrome
-* 
+
 
 
 
